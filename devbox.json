@@ -1,24 +1,27 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
   "packages": [
-    "tmux@latest",
     "zsh@latest",
-    "jless@latest",
+    "tmux@latest",
+    "git@latest",
+    "htop@latest",
+    "gh@latest",
+    "ripgrep@latest",
     "httpie@latest",
+    "jdk17@latest",
+    "maven@latest",
+    "gradle@latest",
+    "jbang@latest",
+    "jless@latest",
     "jq@latest",
-    "tree@latest",
-    "eza@latest",
+    "yq@latest",
+    "neovim@latest",
+    "autojump@latest",
     "bat@latest",
-    "ripgrep@latest"
+    "exa@latest",
+    "fd@latest"
   ],
   "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
-    "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
-    }
+    "init_hook": []
   }
 }
