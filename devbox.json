@@ -19,7 +19,8 @@
     "autojump@latest",
     "bat@latest",
     "exa@latest",
-    "fd@latest"
+    "fd@latest",
+    "tree@latest"
   ],
   "shell": {
     "init_hook": []
