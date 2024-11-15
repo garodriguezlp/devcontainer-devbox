@@ -21,8 +21,5 @@
     "exa@latest",
     "fd@latest",
     "tree@latest"
-  ],
-  "shell": {
-    "init_hook": []
-  }
+  ]
 }

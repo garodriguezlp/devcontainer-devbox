@@ -4,9 +4,17 @@
     "dockerfile": "./Dockerfile",
     "context": ".."
   },
-  "remoteUser": "devbox",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "jetpack-io.devbox"
+      ]
+    }
+  },
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {}
-  }
+  },
+  "remoteUser": "devbox"
 }
