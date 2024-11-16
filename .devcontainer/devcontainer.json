@@ -6,9 +6,21 @@
   },
   "customizations": {
     "vscode": {
-      "settings": {},
+      "settings": {
+        "devbox.autoShellOnTerminal": false
+      },
       "extensions": [
-        "jetpack-io.devbox"
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "SonarSource.sonarlint-vscode",
+        "eamodio.gitlens",
+        "jbangdev.jbang-vscode",
+        "jetpack-io.devbox",
+        "ms-azuretools.vscode-docker",
+        "streetsidesoftware.code-spell-checker",
+        "vmware.vscode-boot-dev-pack",
+        "vscjava.vscode-java-pack",
+        "vscodevim.vim"
       ]
     }
   },
