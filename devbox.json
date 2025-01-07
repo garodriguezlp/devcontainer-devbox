@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "awscli2@latest",
+    "bat@latest",
+    "curl@latest",
+    "eza@latest",
+    "fd@latest",
+    "gh@latest",
+    "git@latest",
+    "gradle@latest",
+    "htop@latest",
+    "httpie@latest",
+    "jbang@latest",
+    "jdk17@latest",
+    "jless@latest",
+    "jq@latest",
+    "maven@latest",
+    "neovim@latest",
+    "ripgrep@latest",
+    "terraform@latest",
+    "tmux@latest",
+    "tree@latest",
+    "yq@latest",
+    "zoxide@latest",
+    "zsh@latest"
+  ]
+}
